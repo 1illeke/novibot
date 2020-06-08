@@ -1,0 +1,24 @@
+{
+  "name": "config-bot-for-novi",
+  "version": "1.0.0",
+  "description": "A discord bot for novi",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node --harmony bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "configs"
+  ],
+  "author": "lilleke <lillekenr4@gmail.com>",
+  "license": "GPL-2.0",
+  "dependencies": {
+    "common-tags": "^1.8.0",
+    "discord.js": "^11.6.4",
+    "discord.js-commando": "^0.9.0",
+    "discordbots": "^1.1.4",
+    "sqlite": "^2.9.3"
+  }
+}
